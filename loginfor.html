@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-form</title>
+    <link rel="icon"  type="image/svg" href="images/login.svg">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-panels.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel-noscript.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-desktop.css" />
+       
+    </noscript>
+    
+</head>
+<body>
+   <header class="head">
+    <nav id="nav">
+        <span>
+            <a href="Home.html"><img class="logo1" src="images/logo2.png" alt=""> </a>
+        </span>	
+        <ul>
+            <li class="active"><a href="Home.html">Homepage</a></li>
+            <li><a href="posts.html">posts</a></li>
+            <li><a href="about-us.html">About US</a></li>
+            <li><a href="contact.html">Contact-US</a></li>
+        </ul>
+    </nav>
+       <form action="">
+    <div class="login-wrap">
+        <div class="login-html">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+            <div class="login-form">
+                <div class="sign-in-htm">
+                    <div class="group">
+                        <label for="user" class="label">Username</label>
+                        <input id="user" type="text" class="input">
+                    </div> 
+                    <div class="group">
+                        <label for="pass" class="label">Password</label>
+                        <input id="pass" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                        <input id="check" type="checkbox" class="check" checked>
+                        <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                    </div>
+                    <div class="group">
+                        <input type="submit" class="button" value="Sign In">
+                    </div>
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                        <a href="#forgot">Forgot Password?</a>
+                    </div>
+                </div>
+                <div class="sign-up-htm">
+                    <div class="group">
+                        <label for="firstName" class="label">firstName</label>
+                        <input id="firstName" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="lastName" class="label">lastName</label>
+                        <input id="lastName" type="text" class="input">
+                    </div>
+                   
+                    <div class="group">
+                        <label for="pass" class="label">Password</label>
+                        <input id="pass" type="password" class="input" data-type="password">
+                    </div>
+                    <!-- <div class="group">
+                        <label for="Rep-pass" class="label">Repeat Password</label>
+                        <input id="Rep-pass" type="password"  class="input" data-type="password">
+                    </div> -->
+                   
+                    <div class="group">
+                        <label for="pass" class="label">Email Address</label>
+                        <input id="pass" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <input type="submit" class="button" value="Sign Up">
+                    </div>
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                        <label for="tab-1"><a href="loginfor.html">Already Member?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+</form>
+   
+</header>
+
+    <!-- footer -->
+  
+      <div id="footer">
+        <div class="container">
+            <section>
+                <header>
+                    <h2>Get in touch</h2>
+                    <!-- <span class="byline">Integer sit amet pede vel arcu aliquet pretium</span> -->
+                </header>
+                <ul class="contact">
+                    <li><a href="https://twitter.com" class="fa fa-twitter"><span>Twitter</span></a></li>
+					<li class="active"><a href="https://facebook.com" class="fa fa-facebook"><span>Facebook</span></a></li>
+					<li><a href="https://linkedin.com" class="fa fa-linkedin"><span>linkedin</span></a></li>
+					<li><a href="https://github.com" class="fa fa-github"><span>Github</span></a></li>
+                </ul>
+                <!-- nav bar -->
+                <nav id="nav">
+					<ul>
+						<li class="active"><a href="Home.html">Homepage</a></li>
+						<li><a href="posts.html">posts</a></li>
+						<li><a href="about-us.html">About US</a></li>
+						<li class="active"><a href="loginfor.html">SignUp</a></li>
+					</ul>
+				</nav>
+            </section>
+        </div>
+    </div>
+
+ <!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+                SVF &mdash; Stolen Vehicles Found &copy; <a >CopyRight</a> 2021 All rights reserved.
+			</div>
+		</div>
+
+    
+    </body>
+</html>

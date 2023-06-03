@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Post_Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="icon" type="image/svg" href="images/post.svg">
+
+	  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Posts.css">
+  </head>
+  <body>
+    <header>
+      <nav id="nav">
+        <span>
+          <a href="Home.html"><img class="logo1" src="images/logo2.png" alt=""> </a>
+        </span>	
+        <ul>
+          <li class="active"><a href="Home.html">Homepage</a></li>
+          <li><a href="posts.html">posts</a></li>
+          <li><a href="about-us.html">About US</a></li>
+          <li class="active"><a href="loginfor.html">SignUp</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="testbox">
+      <form action="">
+        <div class="banner">
+          <h1>Vehicles_details</h1>
+        </div>
+        <div class="item">
+          <p id="title">Name</p>
+          <div class="name-item">
+            <input type="text" name="FirstName" placeholder="FirstName"  spellcheck="true"/>
+            <input type="text" name="LastName" placeholder="LastName"  spellcheck="true"/>
+          </div>
+        </div>
+        <div class="item">
+          <p id="title">Email</p>
+          <input type="email" name="email" placeholder="type your email" spellcheck="true"/>
+        </div>
+        <div class="item">
+          <p id="title">Phone</p>
+          <input type="text" name="Phone" placeholder="type your Phone" value="+20" spellcheck="true"/>
+        </div>
+        <!-- <div class="item">
+          <p>Number of Passengers</p>
+          <input type="text" name="name"/>
+        </div> -->
+        <div class="item">
+          <p id="title">Contact Address</p>
+          <input type="text" name="name" placeholder="Street address" spellcheck="true" />
+          <input type="text" name="name" placeholder="Street address line 2"  spellcheck="true"/>
+          <div class="city-item">
+			<select>
+				<option value="">Canada</option>
+				<option value="1" selected>Egypt</option>
+				<option value="2">Germany</option>
+				<option value="3">France</option>
+				<option value="4">Armenia</option>
+				<option value="5">USA</option>
+			  </select>
+            <input type="text" name="city" placeholder="City" />
+			      <input type="text" name="Town" placeholder="Town" />
+            <input type="text" name="zipcode" placeholder="Postal / Zip code" />
+          </div>
+        </div>
+
+        <!-- numbe and model of vehicles -->
+        <div>
+          <label class="title" for="number">NumberOfVehicle</label>
+          <input  id="number" type="text" name="number" placeholder="Number"  spellcheck="true"/>
+        </div>
+        <div>
+          <label class="title" for="license">LicenseOfDriver</label>
+          <input id="license"type="text" name="license" placeholder="license" />
+        </div>
+
+        <!-- vehicles type -->
+        <div class="question">
+          <p id="title">Vehicle_type</p>
+          <div class="question-answer"> 
+            <div>
+              <input type="radio" value="none" id="radio_1" name="vehicle" />
+              <label for="radio_1" class="radio"><span>personalVehicles(4-5)</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="radio_2" name="vehicle" />
+              <label for="radio_2" class="radio"><span>Limousine (8-12 person) </span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="radio_3" name="vehicle" />
+              <label for="radio_3" class="radio"><span>Van (12-15 person)</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="radio_4" name="vehicle" />
+              <label for="radio_4" class="radio"><span>Bus (50+ person)</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="radio_5" name="vehicle" />
+              <label for="radio_5" class="radio other"><span>other:</span></label>
+              <input class="other" type="text" name="name" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <p id="title">Pick Up Date </p>
+          <input type="date" name="bdate" />
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <div class="item">
+          <p id="title">Pick Up Time (optional)</p>
+          <input type="time" name="name" />
+          <i class="fas fa-clock"></i>
+        </div>
+        <div>
+           <label class="title" for="image">Image</label>
+            <input id="image"  type="file" name="file" placeholder="Upload-Image" />
+          </div>
+        <div class="item">
+          <p id="title" >Notes</p>
+          <textarea rows="3" spellcheck="true"></textarea>
+        </div>
+        <div  class="btn-block">
+          <button id="btn-block" type="submit" href="add"><a href="add-post.html" target="_blank">publish</a></button>
+        </div>
+      </form>
+    </div>
+	<!-- Footer -->
+	<div id="footer">
+		<div class="container">
+			<section>
+				<header>
+					<h2>Get in touch</h2>
+					<!-- <span class="byline">Integer sit amet pede vel arcu aliquet pretium</span> -->
+				</header>
+				<ul class="contact">
+          <li><a href="https://twitter.com" class="fa fa-twitter"><span>Twitter</span></a></li>
+					<li class="active"><a href="https://facebook.com" class="fa fa-facebook"><span>Facebook</span></a></li>
+					<li><a href="https://linkedin.com" class="fa fa-linkedin"><span>linkedin</span></a></li>
+					<li><a href="https://github.com" class="fa fa-github"><span>Github</span></a></li>
+				</ul>
+				<nav id="nav">
+					<ul>
+						<li class="active"><a href="Home.html">Homepage</a></li>
+						<li><a href="about-us.html">About US</a></li>
+						<li><a href="contact.html">Contact-US</a></li>
+						<li class="active"><a href="loginfor.html">SignUp</a></li>
+					</ul>
+				</nav>
+			</section>
+		</div>
+	</div>
+
+<!-- Copyright -->
+	<div id="copyright">
+		<div class="container">
+      SVF &mdash; Stolen Vehicles Found &copy; <a >CopyRight</a> 2021 All rights reserved.
+		</div>
+	</div>
+  </body>
+</html>
