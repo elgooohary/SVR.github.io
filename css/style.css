@@ -1269,7 +1269,7 @@ button {
 	{
 		position: relative;
 		/* background: #f2f2f2; */
-		background-image: url("/images/person.jpg");
+/* 		background-image: url("/images/person.jpg"); */
 		background-attachment: fixed;
 		background-size: cover;
 		text-align: center;
